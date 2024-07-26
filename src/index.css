@@ -5,4 +5,10 @@
 * {
     min-width: 0;
     box-sizing: border-box;
+    /* border: 1px solid yellow */
+}
+
+.bg-blend {
+    background-color: rgba(0, 0, 255, 0.24);
+    background-blend-mode: multiply;
 }

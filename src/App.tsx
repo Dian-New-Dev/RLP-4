@@ -1,12 +1,13 @@
 import React from 'react';
+import HeaderHero from './HeaderHero'
 
 const App: React.FC = () => {
-  return (
-    <div className='bg-red-500'>
-      <h1 className='text-3xl font-bold underline'>Hdello world</h1>
-    </div>
-    
-  );
+    return (
+        <div>
+            <HeaderHero />
+        </div>
+        
+    );
 };
 
 export default App;
