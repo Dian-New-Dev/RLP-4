@@ -8,11 +8,11 @@ const Header: React.FC = () => {
             </div>
 
             <nav className="w-3/4 flex justify-end items-center gap-7">
-                <a className="font-roboto text-sky-100" href="#">Início</a>
-                <a className="font-roboto text-sky-100" href="#">Sobre</a>
-                <a className="font-roboto text-sky-100" href="#">Funcionalidades</a>
-                <a className="font-roboto text-sky-100" href="#">Depoimentos</a>
-                <a className="font-roboto text-sky-100" href="#">Planos</a>
+                <a className="font-roboto text-sky-100 hover:text-sky-300" href="#">Início</a>
+                <a className="font-roboto text-sky-100 hover:text-sky-300" href="#">Sobre</a>
+                <a className="font-roboto text-sky-100 hover:text-sky-300" href="#">Funcionalidades</a>
+                <a className="font-roboto text-sky-100 hover:text-sky-300" href="#">Depoimentos</a>
+                <a className="font-roboto text-sky-100 hover:text-sky-300" href="#">Planos</a>
             </nav>
         </div>
 
