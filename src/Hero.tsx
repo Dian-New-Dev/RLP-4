@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
                     
                     Com o aplicativo trailmaster, suas caminhadas ficarão mais fáceis, práticas
                     e estonteantes. Novas paisagens, novos trajetos, novas aventuras.</h2>
-                <button className='bg-sky-500 hover:bg-sky-700 font-bold py-2 px-4 rounded-full text-sky-100 font-roboto w-56'>
+                <button className='bg-sky-800 hover:bg-sky-900 font-bold py-2 px-4 rounded-full text-sky-100 font-roboto w-56'>
                     Download
                 </button>
             </div>
