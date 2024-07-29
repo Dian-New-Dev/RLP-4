@@ -1,6 +1,10 @@
 import React from 'react';
 import HeaderHero from './HeaderHero'
 import Sobre from './Sobre'
+import Funcionalidades from './Funcionalidades';
+import Depoimentos from './Depoimentos';
+import CTA from './CTA';
+import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
@@ -8,6 +12,14 @@ const App: React.FC = () => {
             <HeaderHero />
 
             <Sobre />
+
+            <Funcionalidades />
+
+            <Depoimentos />
+
+            <CTA />
+
+            <Footer />
         </div>
         
     );
