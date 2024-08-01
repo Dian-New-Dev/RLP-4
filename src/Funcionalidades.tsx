@@ -2,8 +2,8 @@ import React from "react";
 
 const Funcionalidades:React.FC = () => {
     return (
-        <div className="font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
-            <h2 className="font-roboto text-2xl font-bold text-sky-950">Sobre o Trailmaster</h2>
+        <div id="B" className="font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
+            <h2 className="font-roboto text-2xl font-bold text-sky-950">Funcionalidades</h2>
             <div className="flex gap-4">
                 <div className="text-center">
                     <h3 className="text-1xl">Planejamento de Rotas</h3>

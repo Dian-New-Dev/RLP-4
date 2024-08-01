@@ -2,7 +2,7 @@ import React from "react";
 
 const Sobre: React.FC = () => {
     return (
-        <div className="w-full">
+        <div id="A" className="w-full">
             <div className="bg-sky-100 flex justify-center items-center p-28 pb-36">
                 <h2 className="font-roboto text-2xl font-bold text-sky-950">Sobre o Trailmaster</h2>
             </div>

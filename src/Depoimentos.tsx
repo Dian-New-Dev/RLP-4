@@ -3,7 +3,7 @@ import Estrelas from "./Estrelas"
 
 const Depoimentos:React.FC = () => {
     return (
-        <div className="font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
+        <div id="C" className="font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
             <h2 className="font-roboto text-2xl font-bold text-sky-950">Depoimentos</h2>
             <div className="flex gap-4">
                 <div className="flex flex-col items-center flex-1 justify-between text-center gap-2">
