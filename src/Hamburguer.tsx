@@ -24,9 +24,9 @@ const Hamburguer: React.FC = () => {
 
             </div>
 
-            <div id="hamb-painel" className='w-1/2 h-full absolute right-0 top-7 text-center'>
+            <div id="hamb-painel" className='w-1/2 min-w-[160px] h-full absolute right-0 top-7 text-center'>
                 <div className=
-                {`transition-all flex duration-500  ease-in-out flex-col py-2 px-6 gap-2 font-roboto bg-sky-800 font-bold text-sky-100 rounded-lg ${isHambVisible ? 'opacity-100' : 'opacity-0'}`}>
+                {`transition-all flex duration-500  ease-in-out flex-col py-2 px-6 gap-2 font-roboto bg-sky-950/50 font-bold text-sky-100 rounded-lg ${isHambVisible ? 'opacity-100' : 'opacity-0'}`}>
                     <a onClick={abreFechaHamb} className=' hover:bg-sky-900' href="#A">Sobre</a>
                     <a onClick={abreFechaHamb} className=' hover:bg-sky-900' href="#B">Funcionalidades</a>
                     <a onClick={abreFechaHamb} className=' hover:bg-sky-900' href="#C">Depoimentos</a>

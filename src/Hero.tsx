@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
     return (
-        <div className='flex flex-col items-end w-full justify-end sm:pl-0 md:pl-0 lg:pl-80 pt-24  sm:pt-24 gap-5'>
+        <div className='flex flex-col items-end w-full justify-end sm:pl-0 md:pl-0 lg:pl-80 pt-32  md:pt-80 gap-5'>
             <div className='flex flex-col items-end gap-5'>
                 <h1 className='text-end text-3xl md:text-5xl text-sky-100 font-roboto'>
                     

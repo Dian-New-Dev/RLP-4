@@ -20,7 +20,7 @@ const Header: React.FC = () => {
         return (
             <div id="A" className="flex w-full">
                 <div className="w-3/12">
-                    <img className="w-48" src="images/logo-bg.png" alt="Logo" />
+                    <img className="w-48 min-w-[100px]" src="images/logo-bg.png" alt="Logo" />
                 </div>
 
                 <Hamburguer />

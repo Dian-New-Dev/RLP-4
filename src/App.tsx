@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
-        <div>
+        <div className='flex flex-col items-center bg-sky-100'>
             <HeaderHero />
 
             <Sobre />
