@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
     return (
         <div className='w-full bg-sky-950 text-sky-100 flex flex-row sm:flex-col text-xs font-roboto justify-around items-center gap-2'>
             <div className='sm:order-1'>
-                <img className="w-24 sm:w-32 pt-1 ml-[-10px] sm:ml-0" src={"./images/logo-bg2.png"} alt="Logo" />
+                <img className="w-24 sm:w-32 pt-1 ml-[-10px] sm:ml-0" src={"./assets/images/logo-bg2.png"} alt="Logo" />
             </div>
 
             <div className='sm:order-3 flex flex-col text-sky-600 text-center sm:text-left sm:flex-row gap-1 sm:gap-4 ml-[-15px]'>

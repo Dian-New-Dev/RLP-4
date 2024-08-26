@@ -43,7 +43,7 @@ const Header: React.FC = () => {
         return (
             <div id="A" className="z-50 fixed top-0 left-0 flex w-full p-4">
                 <div className="z-50 w-3/12">
-                    <img className={`z-50 w-48 min-w-[100px] logo-transicao ${rolouScroll ? 'logo-destacado' : 'logo-normal'}`} src={"./images/logo-bg.png"} alt="Logo" />
+                    <img className={`z-50 w-48 min-w-[100px] logo-transicao ${rolouScroll ? 'logo-destacado' : 'logo-normal'}`} src={"./assets/images/logo-bg.png"} alt="Logo" />
                 </div>
 
                 <Hamburguer />
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
         return (
             <div id="A" className="px-0 lg:px-16 xl:px-32 2xl:px-64 z-50 flex w-full">
                 <div className="z-50 w-3/12">
-                    <img className="z-50 w-48" src={"./images/logo-bg.png"} alt="Logo" />
+                    <img className="z-50 w-48" src={"./assets/images/logo-bg.png"} alt="Logo" />
                 </div>
 
                 <nav className="z-50 w-3/4 flex justify-end items-center gap-2 lg:gap-7 text-sm lg:text-base">
