@@ -20,9 +20,9 @@ const Footer: React.FC = () => {
             </div>
 
             <div className='sm:order-2 flex gap-2'>
-                <a href="www.facebook.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./images/facebook.png"} alt="Ícone de Facebook" /></a>
-                <a href="www.twitter.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./images/twitter.png"} alt="Ícone de Twitter" /></a>
-                <a href="www.instagram.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./images/instagram.png"} alt="Ícone de Instagram" /></a>
+                <a href="www.facebook.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./assets/images/facebook.png"} alt="Ícone de Facebook" /></a>
+                <a href="www.twitter.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./assets/images/twitter.png"} alt="Ícone de Twitter" /></a>
+                <a href="www.instagram.com" target='_blank'><img className='w-4 sm:w-8 hover:border' src={"./assets/images/instagram.png"} alt="Ícone de Instagram" /></a>
             </div>
         </div>
         
