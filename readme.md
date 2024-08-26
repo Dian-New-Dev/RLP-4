@@ -7,7 +7,7 @@
 
 ## Inspiração para Layout
 
-![alt text](landing-page-somber-colors-720318940.png)
+![alt text](image.png)
 
 * Gerado por AI, prompt: "landing page, somber colors".
 

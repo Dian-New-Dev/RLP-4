@@ -3,7 +3,7 @@ import Estrelas from "./Estrelas"
 
 const Depoimentos:React.FC = () => {
     return (
-        <div id="C" className="relative w-full max-w-[1440px] font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
+        <div id="D" className="relative w-full max-w-[1440px] font-roboto bg-sky-100 flex flex-col justify-center items-center p-16 gap-16">
             <h2 className="font-roboto text-2xl lg:text-4xl font-bold text-sky-950">Depoimentos</h2>
             <div className="flex flex-col sm:flex-row lg:grid grid-cols-2 items-center justify-center gap-4">
                 <div className="z-10 bg-gray-100/50 py-4 border w-full max-w-[500px] flex flex-col items-center flex-1 justify-center text-center gap-2 hover:scale-[1.01]">

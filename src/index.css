@@ -12,3 +12,34 @@
     background-color: rgba(0, 0, 255, 0.24);
     background-blend-mode: multiply;
 }
+
+.transicao-gradiente {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.568) 50%, rgba(0, 0, 0, 0.575) 75%);
+    transition: opacity 0.7s ease;
+}
+
+.transicao-gradiente-desktop {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.342) 0%, rgba(0, 0, 0, 0.767) 50%, rgba(0, 0, 0, 0.849) 75%);
+    transition: opacity 0.7s ease;
+}
+
+.sem-gradiente {
+    opacity: 0;
+}
+
+.gradiente {
+    opacity: 1;
+}
+
+.logo-transicao {
+    transition: filter 0.3s ease;
+}
+
+.logo-normal {
+    filter: brightness(1);
+}
+
+.logo-destacado {
+    filter: brightness(2);
+
+}

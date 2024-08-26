@@ -2,7 +2,7 @@ import React from "react";
 
 const Funcionalidades:React.FC = () => {
     return (
-        <div id="B" className="w-full max-w-[1440px]font-roboto bg-sky-950 flex flex-col justify-center items-center p-16 gap-16">
+        <div id="C" className="w-full max-w-[1440px]font-roboto bg-sky-950 flex flex-col justify-center items-center p-16 gap-16">
             <h2 className="font-roboto text-2xl lg:text-4xl font-bold text-sky-200">Funcionalidades</h2>
             <div className="flex flex-col md:flex-row gap-4">
                 <div className="text-center flex flex-col gap-4">

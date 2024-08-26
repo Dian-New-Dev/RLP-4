@@ -2,8 +2,8 @@ import React from "react";
 
 const Sobre: React.FC = () => {
     return (
-        <div id="A" className="w-full">
-            <div className="bg-sky-950 flex justify-center items-center p-28 py-10 z-20">
+        <div id="B" className="w-full">
+            <div className=" bg-sky-950 flex justify-center items-center p-28 py-10 z-20">
                 <h2 className="z-20 font-roboto text-2xl lg:text-4xl text-center font-bold text-sky-100">Sobre o Trailmaster</h2>
             </div>
             <div className="w-full relative flex flex-col items-center">
@@ -14,7 +14,7 @@ const Sobre: React.FC = () => {
                     <h6 className="text-sky-100 font-roboto text-sm font-thin">Paulo Mendes Campos</h6>
                     
                 </div>
-                <div className="bg-sky-800 bg-[url('/images/about.jpg')] bg-cover bg-center h-screen bg-blend  w-full mt-[-150px] pt-48 p-12 md:p-48 text-center font-roboto text-sky-100 flex flex-col items-center gap-8">
+                <div className="bg-sky-800 bg-[url('/images/about.jpg')] bg-cover bg-center h-full bg-blend  w-full mt-[-150px] pt-48 p-12 md:p-48 text-center font-roboto text-sky-100 flex flex-col items-center gap-8">
                     <h3 className="text-sky-100 font-roboto text-xl xl:text-2xl font-bold">Benefícios de uma caminhada guiada</h3>
                     <div className="grid grid-cols-2 grid-rows-2 place-items-center gap-8 2xl:gap-16 w-full max-w-[1440px] 2xl:px-28">
                         <div className="flex flex-col items-center gap-4 w-full max-w-[500px]">
